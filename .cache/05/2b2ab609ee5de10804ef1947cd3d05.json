@@ -1,0 +1,1 @@
+{"id":"js/shaders/vertex.glsl","dependencies":[],"generated":{"js":"module.exports = `\n\nvarying vec2 vUv;\n\nvoid main() \n{   \n    vUv = uv;\n\n    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n }`"},"sourceMaps":null,"error":null,"hash":"fa2bbb08447fe3dab876528c722ed1e5","cacheData":{}}
